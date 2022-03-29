@@ -10,12 +10,13 @@ Useful links:
 
 ## Machine Learning Zoomcamp
 
-ML Zoomcamp is a course based on the book
+<a href="course-zoomcamp"><img src="images/zoomcamp.jpg" /></a>
+
+Machine Learning Zoomcamp is a course based on the book
 
 * It's online and free
-* The course starts on September, 6
-* It's possible to join at any moment
-* More information [here](course-zoomcamp)
+* You can join at any moment
+* More information in the [course-zoomcamp](course-zoomcamp) folder
 
 
 ## Reading Plan
@@ -137,7 +138,7 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 * Installing and configuring the Kaggle command line interface tool for accessing datasets from Kaggle
 * Creating an EC2 machine on AWS using the web interface and the command-line interface
 
-No code
+Code: no code
 
 Articles from [mlbookcamp.com](https://mlbookcamp.com):
 

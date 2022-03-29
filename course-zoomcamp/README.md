@@ -1,12 +1,42 @@
 # Machine Learning Zoomcamp
 
-<a href="https://www.youtube.com/watch?v=rowoDjPc8HU"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
+<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
 
-[Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
+* [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
+* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
 
-[Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
 
-[Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+## Taking the course
+
+### Self-paced mode
+
+You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
+
+To take the best out of this course, we recommened this:
+
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel 
+* For each module, watch the videos and work through the code
+* If you have any questions, ask them in the `#course-ml-zoomcamp` channel in Slack
+* Do homework. There are solutions, but we advise to first attempt the homework yourself, and after that check the solutions
+* Do at least one project. Two is better. Only this way you can make sure you're really learning. If you need feedback, use the `#course-ml-zoomcamp` channel
+
+Of course, you can take each module independently.
+
+
+### 2022 Cohort
+
+We plan to offer the course again in September 2022
+
+* If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w)
+* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+
+
+## Previous cohorts
+
+### 2021 Cohort
+
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -23,196 +53,165 @@
 - 1.10 [Summary](01-intro/10-summary.md)
 - 1.11 [Homework](01-intro/homework.md)
 
-## 2. Machine Learning for Regression
+## 2. [Machine Learning for Regression](02-regression/)
 
-- 2.1 Car price prediction project
-- 2.2 EDA
-- 2.3 Setting up the validation framework
-- 2.4 Linear regression
-- 2.5 Applying linear regression
-- 2.6 Linear regression: matrix form
-- 2.7 Training linear regression: Normal equation
-- 2.8 Implementing linear regression with NumPy
-- 2.9 Car price - the baseline solution
-- 2.10 Evaluating the model with RMSE
-- 2.11 Validating the model
-- 2.12 Feature engineering
-- 2.13 Categorical variables
-- 2.14 Regularization
-- 2.15 Tuning the model
-- 2.16 Using the model
-- 2.17 Car price prediction project summary
-- 2.18 explore more
-- 2.19 homework
+- 2.1 [Car price prediction project](02-regression/01-car-price-intro.md)
+- 2.2 [Data preparation](02-regression/02-data-preparation.md)
+- 2.3 [Exploratory data analysis](02-regression/03-eda.md)
+- 2.4 [Setting up the validation framework](02-regression/04-validation-framework.md)
+- 2.5 [Linear regression](02-regression/05-linear-regression-simple.md)
+- 2.6 [Linear regression: vector form](02-regression/06-linear-regression-vector.md)
+- 2.7 [Training linear regression: Normal equation](02-regression/07-linear-regression-training.md)
+- 2.8 [Baseline model for car price prediction project](02-regression/08-baseline-model.md)
+- 2.9 [Root mean squared error](02-regression/09-rmse.md)
+- 2.10 [Using RMSE on validation data](02-regression/10-car-price-validation.md)
+- 2.11 [Feature engineering](02-regression/11-feature-engineering.md)
+- 2.12 [Categorical variables](02-regression/12-categorical-variables.md)
+- 2.13 [Regularization](02-regression/13-regularization.md)
+- 2.14 [Tuning the model](02-regression/14-tuning-model.md)
+- 2.15 [Using the model](02-regression/15-using-model.md)
+- 2.16 [Car price prediction project summary](02-regression/16-summary.md)
+- 2.17 [Explore more](02-regression/17-explore-more.md)
+- 2.18 [Homework](02-regression/homework.md)
 
-## 3. Machine Learning for Classification
 
-- Churn prediction project
-- Initial data preparation
-- Setting up the validation framework
-- EDA
-- Feature importance: Churn rate
-- Feature importance: Risk ratio
-- Feature importance: Mutual information
-- Feature importance: Correlation
-- One-hot Encoding
-- Logistic regression
-- Logistic regression with sklearn
-- Using logistic regression (?)
-- Logistic regression - interpretation
-- Applying logistic regression
-- Summary
-- Explore more
-- Homework
+## 3. [Machine Learning for Classification](03-classification/)
 
-## 4. Evaluation Metrics for Classification
+- 3.1 [Churn prediction project](03-classification/01-churn-project.md)
+- 3.2 [Data preparation](03-classification/02-data-preparation.md)
+- 3.3 [Setting up the validation framework](03-classification/03-validation.md)
+- 3.4 [EDA](03-classification/04-eda.md)
+- 3.5 [Feature importance: Churn rate and risk ratio](03-classification/05-risk.md)
+- 3.6 [Feature importance: Mutual information](03-classification/06-mutual-info.md)
+- 3.7 [Feature importance: Correlation](03-classification/07-correlation.md)
+- 3.8 [One-hot encoding](03-classification/08-ohe.md)
+- 3.9 [Logistic regression](03-classification/09-logistic-regression.md)
+- 3.10 [Training logistic regression with Scikit-Learn](03-classification/10-training-log-reg.md)
+- 3.11 [Model interpretation](03-classification/11-log-reg-interpretation.md)
+- 3.12 [Using the model](03-classification/12-using-log-reg.md)
+- 3.13 [Summary](03-classification/13-summary.md)
+- 3.14 [Explore more](03-classification/14-explore-more.md)
+- 3.15 [Homework](03-classification/homework.md)
 
-- Evaluation metrics
-- Accuracy
-- Baseline solution
-- Confusion table
-- Calculating the confusion table
-- Precision and recall
-- Receiver operating characteristic (ROC)
-- ROC: Random baseline
-- ROC: Ideal model
-- The ROC Curve
-- ROC curve with skilearn
-- Area under the ROC Curve (AUC)
-- intepretation of AUC
-- K-fold cross-validation
-- Selecting the best parameter C
-- summary
-- explore more
-- homework
 
-## 5. Deploying Machine Learning Models
+## 4. [Evaluation Metrics for Classification](04-evaluation/)
 
-- Using the model
-- pickle
-- Deploying a model as a Web Service
-- Introduction to Flask
-- Model serving with flask
-- Managing dependencies with Pipenv
-- Introduction to Docker
-- Testing it locally
-- AWS beanstalk
-- summary
-- explore more
-- homework
+- 4.1 [Evaluation metrics: session overview](04-evaluation/01-overview.md)
+- 4.2 [Accuracy and dummy model](04-evaluation/02-accuracy.md)
+- 4.3 [Confusion table](04-evaluation/03-confusion-table.md)
+- 4.4 [Precision and Recall](04-evaluation/04-precision-recall.md)
+- 4.5 [ROC Curves](04-evaluation/05-roc.md)
+- 4.6 [ROC AUC](04-evaluation/06-auc.md)
+- 4.7 [Cross-Validation](04-evaluation/07-cross-validation.md)
+- 4.8 [Summary](04-evaluation/08-summary.md)
+- 4.9 [Explore more](04-evaluation/09-explore-more.md)
+- 4.10 [Homework](04-evaluation/homework.md)
 
-## 6. Decision Trees and Ensemble Learning
 
-- Credit risk scoring project
-- Data cleaning
-- Data preparation
-- Decision trees
-- Decision tree learning algorithm
-- impurity
-- split
-- stopping criteria
-- Decision trees parameter tuning
-- Ensembles and random forest
-- Random forest in sklearn
-- Random forest parameter tuning
-- Gradient boosting
-- eXtreme Gradient Boosting - XGBoost
-- training
-- watchlist
-- XGBoost parameter tuning
-- learning rate
-- max_depth
-- min_child_weight
-- Testing the final model
-- summary
-- explore more
-- homework
+## 5. [Deploying Machine Learning Models](05-deployment/)
 
-## 7. Midterm Project
+- 5.1 [Intro / Session overview](05-deployment/01-intro.md)
+- 5.2 [Saving and loading the model](05-deployment/02-pickle.md)
+- 5.3 [Web services: introduction to Flask](05-deployment/03-flask-intro.md)
+- 5.4 [Serving the churn model with Flask](05-deployment/04-flask-deployment.md)
+- 5.5 [Python virtual environment: Pipenv](05-deployment/05-pipenv.md)
+- 5.6 [Environment management: Docker](05-deployment/06-docker.md)
+- 5.7 [Deployment to the cloud: AWS Elastic Beanstalk (optional)](05-deployment/07-aws-eb.md)
+- 5.8 [Summary](05-deployment/08-summary.md)
+- 5.9 [Explore more](05-deployment/09-explore-more.md)
+- 5.10 [Homework](05-deployment/homework.md)
 
-## 8. Neural Networks and Deep Learning
 
-- Clothes classification project
-- TensorFlow and Keras
-- loading the images
-- etc
-- Using a pre-trained model
-- CNNs: convolutional layers
-- CNNs: dense layers
-- Transfer learning
-- Creating the clothes classification model
-- Keras functional components
-- optimizer
-- training the model
-- Learning Rate
-- Model checkpointing
-- Adding more layers
-- Dropout
-- Data augmentation
-- Training a larger clothes classification model
-- Using the model with Keras
-- summary
-- explore more
-- homework
+## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
-## 9. Serverless Deep Learning
+- 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
+- 6.2 [Data cleaning and preparation](06-trees/02-data-prep.md)
+- 6.3 [Decision trees](06-trees/03-decision-trees.md)
+- 6.4 [Decision tree learning algorithm](06-trees/04-decision-tree-learning.md)
+- 6.5 [Decision trees parameter tuning](06-trees/05-decision-tree-tuning.md)
+- 6.6 [Ensemble learning and random forest](06-trees/06-random-forest.md)
+- 6.7 [Gradient boosting and XGBoost](06-trees/07-boosting.md)
+- 6.8 [XGBoost parameter tuning](06-trees/08-xgb-tuning.md)
+- 6.9 [Selecting the best model](06-trees/09-final-model.md)
+- 6.10 [Summary](06-trees/10-summary.md)
+- 6.11 [Explore more](06-trees/11-explore-more.md)
+- 6.12 [Homework](06-trees/homework.md)
 
-- intro
-- serverless and AWS Lambda
-- tensorflow-lite
-- converting the model to TF-lite
-- preparing images
-- using the model in TF-lite
-- putting everything together in a Lambda function
-- preparing the docker image
-  - testing the image locally
-- pusting the image to ECR
-- creating the lambda function
-- creating the API gateway
-- summary
-- explore more
-- homework
 
-## 10. Kubernetes and TensorFlow-Serving
+## 7. [Midterm Project](07-midterm-project/)
 
-- intro, serving architecture overview
-- saved_model format
-- tensorflow-serving
-  - running TF-serving locally
-- communicating with tf-serving from Jupyter
-- creating the gateway service
-- introduction to Kubernetes
-- creating a cluster on AWS (article)
-- preparing the images
-  - the TF-serving image
-  - the gateway image
-- deploying to Kubernetes
-  - deployment for tf-serving
-  - service for tf-serving
-- creating the gateway on Kubernetes
-  - deploymnet
-  - servince - load balancer
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework
+Putting everything we've learned so far in practice!
 
-## 11. Kubeflow and KFServing
 
-- intro
-- installing Kubeflow on AWS
-- preparing the model: uploading to S3
-- deploying TF models with KF-serving
-- accessing the model
-- tranformers
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework - no homework
+## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
-## 12. Capstone Project
+- 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
+- 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
+- 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
+- 8.5 [Transfer learning](08-deep-learning/05-transfer-learning.md)
+- 8.6 [Adjusting the learning rate](08-deep-learning/06-learning-rate.md)
+- 8.7 [Checkpointing](08-deep-learning/07-checkpointing.md)
+- 8.8 [Adding more layers](08-deep-learning/08-more-layers.md)
+- 8.9 [Regularization and dropout](08-deep-learning/09-dropout.md)
+- 8.10 [Data augmentation](08-deep-learning/10-augmentation.md)
+- 8.11 [Training a larger model](08-deep-learning/11-large-model.md)
+- 8.12 [Using the model](08-deep-learning/12-using-model.md)
+- 8.13 [Summary](08-deep-learning/13-summary.md)
+- 8.14 [Explore more](08-deep-learning/14-explore-more.md)
+- 8.15 [Homework](08-deep-learning/homework.md)
 
-## 13. Article
 
+## 9. [Serverless Deep Learning](09-serverless/)
+
+- 9.1 [Introduction to Serverless](09-serverless/01-intro.md)
+- 9.2 [AWS Lambda](09-serverless/02-aws-lambda.md)
+- 9.3 [TensorFlow Lite](09-serverless/03-tensorflow-lite.md)
+- 9.4 [Preparing the code for Lambda](09-serverless/04-preparing-code.md)
+- 9.5 [Preparing a Docker image](09-serverless/05-docker-image.md)
+- 9.6 [Creating the lambda function](09-serverless/06-creating-lambda.md)
+- 9.7 [API Gateway: exposing the lambda function](09-serverless/07-api-gateway.md)
+- 9.8 [Summary](09-serverless/08-summary.md)
+- 9.9 [Explore more](09-serverless/09-explore-more.md)
+- 9.10 [Homework](09-serverless/homework.md)
+
+
+## 10. [Kubernetes and TensorFlow Serving](10-kubernetes/)
+
+- 10.1 [Overview](10-kubernetes/01-overview.md)
+- 10.2 [TensorFlow Serving](10-kubernetes/02-tensorflow-serving.md)
+- 10.3 [Creating a pre-processing service](10-kubernetes/03-preprocessing.md)
+- 10.4 [Running everything locally with Docker-compose](10-kubernetes/04-docker-compose.md)
+- 10.5 [Introduction to Kubernetes](10-kubernetes/05-kubernetes-intro.md)
+- 10.6 [Deploying a simple service to Kubernetes](10-kubernetes/06-kubernetes-simple-service.md)
+- 10.7 [Deploying TensorFlow models to Kubernetes](10-kubernetes/07-kubernetes-tf-serving.md)
+- 10.8 [Deploying to EKS](10-kubernetes/08-eks.md)
+- 10.9 [Summary](10-kubernetes/09-summary.md)
+- 10.10 [Explore more](10-kubernetes/10-explore-more.md)
+- 10.11 [Homework](10-kubernetes/homework.md)
+
+
+## 11. [KServe](11-kserve/)
+
+- 11.1 [Overview](11-kserve/01-overview.md)
+- 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
+- 11.3 [Deploying a Scikit-Learn model with KServe](11-kserve/03-kserve-sklearn.md)
+- 11.4 [Deploying custom Scikit-Learn images with KServe](11-kserve/04-kserve-custom-image.md)
+- 11.5 [Serving TensorFlow models with KServe](11-kserve/05-tensorflow-kserve.md)
+- 11.6 [KServe transformers](11-kserve/06-kserve-transformers.md)
+- 11.7 [Deploying with KServe and EKS](11-kserve/07-kserve-eks.dm)
+- 11.8 [Summary](11-kserve/08-summary.md)
+- 11.9 [Explore more](11-kserve/09-explore-more.md)
+
+
+## 12. [Capstone Project](12-capstone/)
+
+Putting everything we've learned so far in practice one more time!
+
+## 13. [Article](13-article/)
+
+Writing an article about something not covered in the course.
+
+## 14. [Third project](14-project) (optional)
+
+For those who love projects!
